@@ -66,7 +66,7 @@ I'm a **Software Engineer** passionate about building scalable web applications 
   
 [![LinkedIn](https://img.shields.io/badge/-Vansh_Narwani-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vansh-narwani-464b9b217/)
 [![Email](https://img.shields.io/badge/-vanshnarwani10@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vanshnarwani10@gmail.com)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://theoneclickdesigner.com/)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=white)](https://the.com/)
 
 </div>
 
