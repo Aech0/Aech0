@@ -4,7 +4,7 @@
 
 **Software Engineer II · Unstitched (The One Click Designer) · Mumbai**
 
-Sole architect of a generative-AI platform serving thousands of users — six production engines, seven AI providers, 15+ models.
+Sole architect of a generative-AI platform serving thousands of users — six production engines, seven AI providers, 15+ models — and of the One Click Auto dealer-marketing line.
 
 [![Portfolio](https://img.shields.io/badge/vanshnarwani.com-E84A00?style=flat-square&logo=googlechrome&logoColor=white)](https://vanshnarwani.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vansh-narwani-464b9b217/)
@@ -24,12 +24,18 @@ Two years ago I was the only developer at Unstitched. I shipped the entire video
 
 **OCD AI Studio** — the generative-AI platform behind [theoneclickdesigner.com](https://theoneclickdesigner.com/)
 
-- **6 isolated engines** on an SQS → EC2 job architecture, DynamoDB checkpointing, per-branch fault isolation
+- **6 isolated engines** on 7 SQS queues, a JSON workflow runner with tiered parallel steps, per-tier DynamoDB checkpoints, per-branch fault isolation
 - **7 AI providers** (OpenAI, Anthropic, Google, BytePlus, Kling, Runway, Freepik) behind one adapter contract with per-template model routing
 - **5-agent LLM pipeline** that turns two product photos into 4K marketplace listing sets in 25s, and 1080p product videos in ~139s
 - **LLM-as-judge quality layer**: 5-dimension scoring on every output, in-engine QC regeneration, one-click AI Improvement
 - **Scaled for concurrent users**: worker pools, job leases with heartbeat and auto-refunding reapers, a distributed per-model rate gate
 - **Zero-code authoring**: new AI products ship as DynamoDB config, built and tested by non-engineers
+
+**One Click Auto** — B2B dealer marketing for carmakers
+
+- **Volvo** portal live in 7 days: 4 languages, 4 formats, client-side canvas baking, a 13-step guided tour, **live Facebook Graph API publishing with insights**
+- **Tata Motors** wizard with Devanagari transliteration and AE video rendering
+- **Maruti Suzuki** platform architecture for **5,000+ dealers**: HO / Agency / Dealer roles, approval state machine, KMS-encrypted content, WhatsApp Cloud API
 
 ## Selected work
 
@@ -37,17 +43,17 @@ Two years ago I was the only developer at Unstitched. I shipped the entire video
 |---|---|---|
 | [OCD AI Studio](https://theoneclickdesigner.com/) | Multi-engine generative-AI platform, thousands of users | Node.js · SQS · DynamoDB · OpenAI · Claude · Gemini |
 | [Render Pipeline](https://theoneclickdesigner.com/) | 500+ After Effects templates rendered on demand, 0.86s LCP storefront | Lambda · SQS · AE CLI · S3 · Three.js |
-| [Volvo Dealer Portal](https://theoneclickdesigner.com/volvo-demo) | B2B content hub shipped in 6 days, live Facebook Graph API publishing | React · Graph API · S3 · Lambda |
+| [One Click Auto](https://theoneclickdesigner.com/volvo-demo) | Dealer-marketing line: Volvo portal live in 7 days, Maruti architecture for 5,000+ dealers | React · Facebook Graph API · WhatsApp Cloud API · Lambda |
 | [Glinte](https://glinte.in/) | D2C e-commerce brand, built solo, live and taking orders | React · Node.js · Razorpay · Shiprocket |
 | [Movie Recommender](https://movie-recommendation-system.netlify.app/) | Content-based ML recommender, 500× faster cached responses | FastAPI · scikit-learn · React |
 
 ## Experience
 
 **Software Engineer II** · Unstitched — The One Click Designer · 2025 → now
-Own the generative-AI platform end to end. Architecture, scaling, quality, security, and a 31-item hardening program. Mentored 4 interns, converted one to full-time.
+Own the generative-AI platform and the One Click Auto dealer line end to end. Architecture, scaling, quality, and security: closed an admin-key bypass across 33 routes and an OTP account-takeover, then a 31-item hardening program. Mentored 4 interns, converted one to full-time.
 
 **Junior Developer** · Unstitched — The One Click Designer · Aug 2024 → 2025
-Sole developer of the core platform: 500+ AE templates, distributed render pipeline, 235+ Lambda routes under 85ms, Razorpay billing, and the security pass that hardened all of it.
+Sole developer of the core platform: 500+ AE templates, distributed render pipeline, 235+ Lambda routes under 85ms, Razorpay billing, and the incident response to a live extortion attempt that hardened all of it.
 
 **Freelance Full-Stack Developer** · Glinte · 2024
 Storefront, admin, inventory, payments, logistics. Live.
@@ -90,13 +96,8 @@ Led both companies' primary website builds end to end.
 ![Rate limiting](https://img.shields.io/badge/Distributed_rate_limiting-232F3E?style=flat-square)
 ![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white)
 ![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=flat-square&logo=razorpay&logoColor=white)
-
-<div align="center">
-
-![Stats](https://github-readme-stats.vercel.app/api?username=Aech0&show_icons=true&hide_border=true&theme=default&hide_title=true)
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Aech0&layout=compact&hide_border=true)
-
-</div>
+![Facebook Graph API](https://img.shields.io/badge/Facebook_Graph_API-0866FF?style=flat-square&logo=facebook&logoColor=white)
+![WhatsApp](https://img.shields.io/badge/WhatsApp_Cloud_API-25D366?style=flat-square&logo=whatsapp&logoColor=white)
 
 ---
 
