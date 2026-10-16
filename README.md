@@ -16,9 +16,11 @@ Sole architect of a generative-AI platform serving thousands of users — six pr
 
 ## What I build
 
-I build the unglamorous machinery behind glamorous products: AI pipelines, render farms, and storefronts that hold up when real users hit them.
+I build the unglamorous machinery behind glamorous products: AI pipelines, render farms, marketplaces, and apps that hold up when real users hit them.
 
 Two years ago I was the only developer at Unstitched. I shipped the entire video-template platform alone, then designed the company's generative-AI product end to end and was promoted to own it.
+
+Alongside that, I build products for clients as a freelancer: a creator-brand marketplace, a subscription learning app, a field-operations portal, and a D2C store. Each one built solo, from brief to production.
 
 ## Right now
 
@@ -37,15 +39,23 @@ Two years ago I was the only developer at Unstitched. I shipped the entire video
 - **Tata Motors** wizard with Devanagari transliteration and AE video rendering
 - **Maruti Suzuki** platform architecture for **5,000+ dealers**: HO / Agency / Dealer roles, approval state machine, KMS-encrypted content, WhatsApp Cloud API
 
+**Freelance** — sole engineer and technical owner, using an AI-assisted Claude Code workflow
+
+- **[Overdue](https://overdue.in/)**: creator-brand marketplace shipped in 10 weeks. Versioned pricing engine with zero constants in code, guarded deal state machine, double-entry escrow ledger. Cleared Meta App Review and Google OAuth verification first time
+- **E Sikshya**: subscription learning app for Android and iOS. 154-chapter syllabus, RevenueCat billing with order-guarded webhooks, AES-256-GCM encrypted offline lessons
+- **Kreed Sahayak**: approval and onboarding portal for ~760 field staff across 8 roles, built in a month for a repeat client. Config-driven state machine, append-only event log, 1,100+ tests
+
 ## Selected work
 
 | Project | What it is | Stack |
 |---|---|---|
 | [OCD AI Studio](https://theoneclickdesigner.com/) | Multi-engine generative-AI platform, thousands of users | Node.js · SQS · DynamoDB · OpenAI · Claude · Gemini |
-| [Render Pipeline](https://theoneclickdesigner.com/) | 500+ After Effects templates rendered on demand, 0.86s LCP storefront | Lambda · SQS · AE CLI · S3 · Three.js |
 | [One Click Auto](https://theoneclickdesigner.com/volvo-demo) | Dealer-marketing line: Volvo portal live in 7 days, Maruti architecture for 5,000+ dealers | React · Facebook Graph API · WhatsApp Cloud API · Lambda |
+| [Overdue](https://overdue.in/) | Creator-brand marketplace with pricing engine and escrow ledger, live | Next.js 16 · Express 5 · PostgreSQL · Prisma · AWS |
+| E Sikshya | Subscription EdTech app for Android and iOS, private client build | React Native · Expo · AWS Lambda · DynamoDB · RevenueCat |
+| Kreed Sahayak | Approval portal for ~760 field staff, private client build | TypeScript · DynamoDB · CloudFront · Lambda |
+| [Render Pipeline](https://theoneclickdesigner.com/) | 500+ After Effects templates rendered on demand, 0.86s LCP storefront | Lambda · SQS · AE CLI · S3 · Three.js |
 | [Glinte](https://glinte.in/) | D2C e-commerce brand, built solo, live and taking orders | React · Node.js · Razorpay · Shiprocket |
-| [Movie Recommender](https://movie-recommendation-system.netlify.app/) | Content-based ML recommender, 500× faster cached responses | FastAPI · scikit-learn · React |
 
 ## Experience
 
@@ -55,8 +65,8 @@ Own the generative-AI platform and the One Click Auto dealer line end to end. Ar
 **Junior Developer** · Unstitched — The One Click Designer · Aug 2024 → 2025
 Sole developer of the core platform: 500+ AE templates, distributed render pipeline, 235+ Lambda routes under 85ms, Razorpay billing, and the incident response to a live extortion attempt that hardened all of it.
 
-**Freelance Full-Stack Developer** · Glinte · 2024
-Storefront, admin, inventory, payments, logistics. Live.
+**Freelance Full-Stack Engineer** · Independent · 2024 → now
+Four products for three clients, each built solo alongside the day job: Overdue, E Sikshya, Kreed Sahayak for a repeat client, and Glinte.
 
 **Web Development Intern** · Maekra (2024) · Kysi Global (2023)
 Led both companies' primary website builds end to end.
@@ -74,6 +84,9 @@ Led both companies' primary website builds end to end.
 **Backend & Cloud**
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
 ![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white)
 ![SQS](https://img.shields.io/badge/SQS-FF4F8B?style=flat-square&logo=amazonsqs&logoColor=white)
 ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
@@ -81,21 +94,24 @@ Led both companies' primary website builds end to end.
 ![EC2](https://img.shields.io/badge/EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
 ![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=flat-square&logo=amazoncloudwatch&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
 
-**Frontend**
+**Frontend & Mobile**
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white)
 ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black)
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
-**Security & Ops**
+**Security, Payments & Ops**
 ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
 ![WAF](https://img.shields.io/badge/WAF_·_CSP_·_OWASP-232F3E?style=flat-square)
 ![Rate limiting](https://img.shields.io/badge/Distributed_rate_limiting-232F3E?style=flat-square)
 ![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white)
 ![Razorpay](https://img.shields.io/badge/Razorpay-0C2451?style=flat-square&logo=razorpay&logoColor=white)
+![RevenueCat](https://img.shields.io/badge/RevenueCat-F25A5A?style=flat-square)
 ![Facebook Graph API](https://img.shields.io/badge/Facebook_Graph_API-0866FF?style=flat-square&logo=facebook&logoColor=white)
 ![WhatsApp](https://img.shields.io/badge/WhatsApp_Cloud_API-25D366?style=flat-square&logo=whatsapp&logoColor=white)
 
