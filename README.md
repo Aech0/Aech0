@@ -4,7 +4,7 @@
 
 **Software Engineer II · Unstitched (The One Click Designer) · Mumbai**
 
-Sole architect of a generative-AI platform serving thousands of users — six production engines, seven AI providers, 15+ models — and of the One Click Auto dealer-marketing line.
+Sole architect of a generative-AI platform serving thousands of users — six production engines, eight AI providers, 15+ models — and of the One Click Auto dealer-marketing line.
 
 [![Portfolio](https://img.shields.io/badge/vanshnarwani.com-E84A00?style=flat-square&logo=googlechrome&logoColor=white)](https://vanshnarwani.com/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vansh-narwani-464b9b217/)
@@ -27,8 +27,8 @@ Alongside that, I build products for clients as a freelancer: a creator-brand ma
 **OCD AI Studio** — the generative-AI platform behind [theoneclickdesigner.com](https://theoneclickdesigner.com/)
 
 - **6 isolated engines** on 7 SQS queues, a JSON workflow runner with tiered parallel steps, per-tier DynamoDB checkpoints, per-branch fault isolation
-- **7 AI providers** (OpenAI, Anthropic, Google, BytePlus, Kling, Runway, Freepik) behind one adapter contract with per-template model routing
-- **5-agent LLM pipeline** that turns two product photos into 4K marketplace listing sets in 25s, and 1080p product videos in ~139s
+- **8 AI providers** (OpenAI, Anthropic, Google, BytePlus, Kling, Runway, Freepik, Ideogram) behind one adapter contract with per-template model routing
+- **Agentic generation pipelines**: a vision analyser and LLM planner fanning out to up to 10 parallel generators, turning one or two product photos into 8-image marketplace listing sets in about 2 minutes, 4-image packs in 25s, and 1080p product videos in ~139s
 - **LLM-as-judge quality layer**: 5-dimension scoring on every output, in-engine QC regeneration, one-click AI Improvement
 - **Scaled for concurrent users**: worker pools, job leases with heartbeat and auto-refunding reapers, a distributed per-model rate gate
 - **Zero-code authoring**: new AI products ship as DynamoDB config, built and tested by non-engineers
@@ -60,10 +60,10 @@ Alongside that, I build products for clients as a freelancer: a creator-brand ma
 ## Experience
 
 **Software Engineer II** · Unstitched — The One Click Designer · 2025 → now
-Own the generative-AI platform and the One Click Auto dealer line end to end. Architecture, scaling, quality, and security: closed an admin-key bypass across 33 routes and an OTP account-takeover, then a 31-item hardening program. Mentored 4 interns, converted one to full-time.
+Own the generative-AI platform and the One Click Auto dealer line end to end. Architecture, scaling, quality, and security: led the response to a live extortion attempt and a 31-item hardening program that closed an admin-key bypass across 33 routes and an OTP account-takeover. Mentored 4 interns, converted one to full-time.
 
 **Junior Developer** · Unstitched — The One Click Designer · Aug 2024 → 2025
-Sole developer of the core platform: 500+ AE templates, distributed render pipeline, 235+ Lambda routes under 85ms, Razorpay billing, and the incident response to a live extortion attempt that hardened all of it.
+Sole developer of the core platform: 500+ AE templates, distributed render pipeline, Node.js/Express API on Lambda under 85ms average, Razorpay billing, SES and Mailchimp automation.
 
 **Freelance Full-Stack Engineer** · Independent · 2024 → now
 Four products for three clients, each built solo alongside the day job: Overdue, E Sikshya, Kreed Sahayak for a repeat client, and Glinte.
